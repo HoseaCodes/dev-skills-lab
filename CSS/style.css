@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: rgb(132, 202, 119);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+  
+  }
+  
+  #group{
+  color: rgb(255, 178, 42);
+  justify-content: space-evenly;
+  }
+  
+  #group2{
+  color: rgb(255, 178, 42);
+  
+  justify-content: space-evenly;
+  
+  }
+  #userInput {
+  border: 2px solid rgb(132, 202, 119);
+  height: 30px;
+  width: 400px;
+  }
+  #submit {
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  border: 2px solid rgb(132, 202, 119);
+  background-color: white;
+  color: rgb(132, 202, 119);
+  }
+  
+ li{
+font-size: x-large;
+list-style-type: none;
+  }
+
+  .delete {
+    background-image: url(https://i.imgur.com/CRLbZYY.png?2);
+    height: 30px;
+    width: 30px;
+
+  }
+  
