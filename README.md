@@ -20,6 +20,6 @@ This application was developed with jQuery and styling with CSS.
 
 This application allows users to a add skill. This skill is created and added to the user's interface. The user is then able to delete any skill by selecting the button that was created with that particular list item. 
 
-Click this link here to [[Dev-Skills](https://codepen.io/hosead6168/pen/RwryLLL)
+Click this link here to [Dev-Skills](https://codepen.io/hosead6168/pen/RwryLLL)
 
 
