@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <script defer src="JS/script.js"></script>
     <title>Dev-Skills-Lab</title>
 </head>
+
+<canvas></canvas>
+
 <body>
-    <main>
-    <header> MY DEVELOPER SKILLS</header>
-    <ul id='group'>    
-       
-    </ul>
-    <div id='input'>
-        <form >
+    <div class="absolute-center">
+        <header> MY DEVELOPER SKILLS</header>
+
+        <ul id="skills"></ul>
+        <form>
             <input type='text' id='userInput' placeholder="Please Enter Skill Here" value=''>
             <button type='submit' id='submit' value='ADD SKILLS'>ADD SKILLS</button>
         </form>
     </div>
-    </main>
+    <!-- <main>
+        <div class="absolute-center">
+            <div>
+                <header> MY DEVELOPER SKILLS</header>
+                <ul id='skills'></ul>
+                <section id='input'>
+                    <form>
+                        <input type='text' id='userInput' placeholder="Please Enter Skill Here" value=''>
+                        <button type='submit' id='submit' value='ADD SKILLS'>ADD SKILLS</button>
+                    </form>
+                </section>
+
+            </div>
+        </div>
+    </main> -->
 </body>
+
 </html>
